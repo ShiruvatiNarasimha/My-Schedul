@@ -3,7 +3,7 @@ import "./globals.css";
 import {Inter} from 'next/font/google'
 import Head from "next/head";
 import Header from "@/components/header";
-import { ClerkProvider } from "@clerk/nextjs/dist/types/components.server";
+import { ClerkProvider } from "@clerk/nextjs";
 
 export const metadata = {
   title: "Schedulrr",
